@@ -7,6 +7,7 @@ import StatsSection from "./components/navbar/banner/StateSection";
 import ProductContainer from "./ProductContainer/ProductContainer";
 import GetStarted from "./components/navbar/GetStarted";
 import Pricing from "./components/navbar/Pricing";
+import CTA from "./components/navbar/CTA";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -106,6 +107,9 @@ function App() {
 
         <div className="mt-20">
              <Pricing/>
+        </div>
+        <div className="mt-20">
+             <CTA/>
         </div>
       </div>
 
