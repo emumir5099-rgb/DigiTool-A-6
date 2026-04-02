@@ -5,7 +5,7 @@ const CTA = () => {
     <div className="bg-purple-600 text-white py-20 px-4 lg:px-10">
       <div className="container mx-auto max-w-7xl">
         
-        {/* Title & Description */}
+   
         <div className="text-center mb-10 space-y-4">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white">
             Ready To Transform Your Workflow?
@@ -16,7 +16,7 @@ const CTA = () => {
           </p>
         </div>
 
-        {/* Buttons Section */}
+    
         <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
             <button 
               className="px-10 py-3 bg-white text-purple-600 rounded-full font-bold hover:bg-gray-100 transition-colors"
