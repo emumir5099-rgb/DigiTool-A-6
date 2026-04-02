@@ -31,7 +31,7 @@ const CTA = () => {
             </button>
         </div>
         
-        {/* Bottom Small Text */}
+        
         <div className="text-center">
             <p className="text-purple-200 text-sm md:text-base font-medium opacity-90">
                 14-day free trial • No credit card required • Cancel anytime
