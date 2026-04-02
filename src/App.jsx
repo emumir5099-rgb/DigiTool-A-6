@@ -8,6 +8,7 @@ import ProductContainer from "./ProductContainer/ProductContainer";
 import GetStarted from "./components/navbar/GetStarted";
 import Pricing from "./components/navbar/Pricing";
 import CTA from "./components/navbar/CTA";
+import Footer from "./components/navbar/Footer";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -110,6 +111,9 @@ function App() {
         </div>
         <div className="mt-20">
              <CTA/>
+        </div>
+        <div className="mt-20">
+             <Footer/>
         </div>
       </div>
 
